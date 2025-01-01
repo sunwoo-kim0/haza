@@ -5,18 +5,18 @@
   <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=KoreanSWGI3R&display=swap" rel="stylesheet" />
   <link href="./css/main.css" rel="stylesheet" />
+  
+
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <title>Document</title>
   <script type="text/javascript"
           src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
 
-  
+  </script>
   
 </head>
 <body>
   <div class="wrap">
-
     <div class="wrap_haza">
       <div class="haza_menu">
         <ul class="menu">
@@ -26,6 +26,14 @@
       </div>
       <div class="haza_main">
         <span>HAZA</span>
+      </div>
+      <div class="haza_bottom" style="display: none;">
+        <a href="#wrap_hello">
+          <div class="bottom_info">
+          소개
+          <br>&#10004;
+          </div>
+        </a>
       </div>
     </div>
     
@@ -61,6 +69,23 @@
           
         </div>
         
+    </div>
+    <div class="mobile_wrap_hello" id="wrap_hello" style="display: none;">
+      <div class="mobile_wrap_pop">
+        <div class="h1">Hello</div>
+        <div class="h2">Here’s who I am & what I do</div>
+        <div class="mobile_pop_top">
+          <img class="p_face"  src="./images/kara.png" width="200" height="200">
+          <span class="p_name">KARA</span>
+          <hr />
+          <span class="p_job">PROJECT MANAGER</span>
+        </div>
+        <div class="pop_bottom">
+          <img class="p_facebook"  src="./images/facebook_icon.png" width="35" height="35">
+          <img class="p_instagram"  src="./images/instagram_icon.png" width="35" height="35">
+          <img class="p_twitter"  src="./images/twitter_icon.png" width="35" height="35">
+        </div>
+      </div>
     </div>
 
     <div class="wrap_wa">
@@ -102,7 +127,7 @@
         </div>
         <div class="contact">
           <span>문의내용(Contact)</span>
-          <input type="textarea" id="contact"/>
+          <input type="textarea" id="contact" placeholder="문의내용을 입력해주세요"/>
         </div>
         <div class="contact_h4">
           문의가 완료된 건은 확인 후 순차적으로 

@@ -1,0 +1,412 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(95,95,95,1);
+}
+
+.wrap {
+  width: 100%;
+  height: 3437px;
+}
+
+.wrap_haza{
+  width: 100%;
+  height: 621px;
+  background: rgba(206,231,235,1);
+  opacity: 1;
+
+  overflow: hidden;
+}
+
+.haza_main{
+  width:100%;
+  height:80%;
+  /* 상하좌우 정중앙 정렬하기 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size:60px;
+  font-weight: bold;
+
+}
+
+.haza_bottom{
+  width:100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.bottom_info{
+  width: 93px;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 1);
+  color:rgba(19, 181, 187, 1);
+  font-family: Inter;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottom_info:hover{
+  color: rgba(255, 255, 255, 1);
+  background: rgba(206,231,235,1);
+}
+
+.wrap_hello{
+  width: 100%;
+  height: 774px;
+  background: rgba(230, 218, 206, 1);
+  padding-top:52px;
+}
+
+.hello_content{
+  padding-top:52px;
+}
+
+.h1{
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  margin-bottom: 16px;
+}
+
+.h2{
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  margin-bottom: 16px;
+}
+
+.wrap_pop{
+  background: rgba(230,218,206,1);
+  padding:16px;
+}
+
+.pop_top{
+  /* 상하좌우 정중앙 정렬하기 */
+  width:100%;
+  height: 89%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:60px;
+  background: rgba(244,236,230,1);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.p_face{
+width:200px;
+height:200px;
+border-radius: 50%;
+}
+
+.p_name{
+font-family: Inter;
+font-weight: Bold;
+font-size: 36px;
+padding-top:41px;
+padding-bottom:41px;
+}
+
+.p_job{
+font-family: Inter;
+font-weight: 100;
+font-size: 20px;
+padding-top:41px;
+}
+
+hr{
+width: 50px;
+margin: 0 ;
+}
+
+.pop_bottom{
+width:100%;
+height:11%;
+background: rgba(255, 255, 255, 1);
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+padding-top: 16px;
+padding-bottom: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.p_facebook, .p_instagram{
+margin-right: 32px;
+}
+
+.wrap_content{
+  width: 100%;
+  height: 606px;
+}
+
+.content_top{
+  width:100%;
+  height: 80%;
+  padding-top:15px;
+  padding-left:17.5px;
+  padding-right:17.5px;
+  padding-bottom:26px;
+  font-family: Inter;
+  font-size:16px;
+  line-height: 1.5;
+}
+
+.content_bottom{
+  width:100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.bottom_req{
+  width: 93px;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(206,	231, 235, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottom_req:hover{
+ 
+  color:  rgba(19, 181, 187, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.wrap_wa{
+  width:100%;
+  height:860px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 100px;
+  color: rgba(255,255,255,1);
+}
+
+.wa_web{
+  width:100%;
+  height: 50%;
+  background : url("../images/web.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: brightness(50%);
+
+  /* 상하좌우 정중앙 정렬하기 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wa_app{
+  width:100%;
+  height: 50%;
+  background : url("../images/app.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: brightness(50%);
+
+  /* 상하좌우 정중앙 정렬하기 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wa_web:hover, .wa_app:hover {
+  filter: brightness(100%);
+}
+
+.wrap_contact{
+  width:100%;
+  height:576px;
+}
+
+.contact_right{
+  width:100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top : 55px;
+  padding-bottom : 55px;
+  background: rgba(248,248,250, 1);
+}
+
+.contact_top{
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  justify-items: center;
+}
+.contact_h1{
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 50px;
+}
+
+.contact_h3{
+  font-family: Inter;
+  font-weight: lighter;
+  font-size: 15px;
+  padding-top:12px;
+}
+
+.c_info{
+  width:100%;
+  padding-top:19px;
+  padding-left:8.94px;
+  padding-right:8.94px;
+  padding-bottom:1px;
+}
+
+.phone{
+  padding-top:29px;
+}
+
+.name, .phone {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  width:100%;
+}
+
+.name > input, .phone > input, .email > input{
+  margin-top: 8px;
+  width:100%;
+  height:50px;
+  box-sizing: border-box;
+  border : 1px solid #D3DCE6 ;
+}
+
+.email{
+  width:100%;
+  padding-top:29px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:12px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.contact{
+  width:100%;
+  padding-top: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:29px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.contact > input{
+  margin-top: 8px;
+  width:100%;
+  height:123px;
+  box-sizing: border-box;
+  border : 1px solid #D3DCE6 ;
+}
+
+.contact_h4, .btn_submit{
+  width: 100%;
+  padding: 0 20%;
+  font-family: Inter;
+  font-size: 12px;
+  color : rgba(94, 94, 94, 1);
+}
+
+.btn_submit{
+  width:100%;
+  height:106px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(19,181,187,1);
+  text-align: center;
+  align-content: center;
+}
+
+.submit  {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: 3px solid rgba(19,181,187,1);
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.submit:hover{
+  background: rgba(19,181,187,1);
+  color:rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.contact >  textarea{
+  margin-top: 8px;
+  width:100%;
+  height:123px;
+  box-sizing: border-box;
+  border : 1px solid #D3DCE6 ;
+  resize: none;
+}
+
+.contact >  textarea::placeholder{
+
+  text-align: center;
+  line-height: 7rem;
+}

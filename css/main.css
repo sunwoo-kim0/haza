@@ -260,7 +260,7 @@ hr{
 
 .wrap_contact{
   width:100%;
-  height:800px;
+  height:820px;
   position: relative;
   bottom: 581px;
   display: flex;
@@ -285,8 +285,8 @@ hr{
   width:50%;
   padding-left: 69px;
   padding-right: 69px;
-  padding-top : 55px;
-  padding-bottom : 55px;
+  padding-top : 40px;
+  padding-bottom : 40px;
   background: rgba(248,248,250, 1);
 }
 
@@ -303,7 +303,7 @@ hr{
 .contact_h1{
   font-family: Inter;
   font-weight: Bold;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom:25px;
 }
 
@@ -315,27 +315,23 @@ hr{
 
 .c_info{
   width:100%;
-  display: flex;
-  justify-content: space-between;
   padding-top:19px;
   padding-left:8.94px;
   padding-right:8.94px;
   padding-bottom:1px;
+  
 }
 
-.name{
-  margin-right: 19px;
-}
 
 .phone{
-  margin-left: 19px;
+  padding-top:19px;
 }
 
 .name, .phone {
   font-family: Inter;
   font-size: 16px;
   font-weight: normal;
-  width:50%;
+  width:100%;
 }
 
 .name > input, .phone > input, .email > input{
@@ -348,7 +344,7 @@ hr{
 
 .email{
   width:100%;
-  padding-top:29px;
+  padding-top:19px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom:12px;
@@ -359,13 +355,14 @@ hr{
 
 .contact{
   width:100%;
-  padding-top: 29px;
+  padding-top: 19px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom:29px;
+  padding-bottom:19px;
   font-family: Inter;
   font-size: 16px;
   font-weight: normal;
+
 }
 
 .contact > input{
@@ -409,16 +406,502 @@ hr{
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  /* 모바일 세로 */
+input::placeholder {
+  
+  text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+.haza_bottom{
+  display: none;
+}
+@media screen and (max-width: 698px){
+
+  
+  .haza_menu{
+    display:none;
+  }
+
+  .mobile_wrap_hello, .haza_bottom{
+    display: flex !important;
+  }
+
+  .wrap_hello, .wrap_pop, .contact_left{
+    display:none;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 3171px;
+  }
+  
+  .wrap_haza{
+    width: 100%;
+    height: 621px;
+    background: rgba(206,231,235,1);
+    opacity: 1;
+  
+    overflow: hidden;
+  }
+  
+  .haza_main{
+    width:100%;
+    height:80%;
+    /* 상하좌우 정중앙 정렬하기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size:60px;
+    font-weight: bold;
+  
+  }
+  
+  .haza_bottom{
+    width:100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .bottom_info{
+    width: 93px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 1);
+    color:rgba(19, 181, 187, 1);
+    font-family: Inter;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .bottom_info:hover{
+    color: rgba(255, 255, 255, 1);
+    background: rgba(206,231,235,1);
+  }
+  
+  .mobile_wrap_hello{
+    width: 100%;
+    height: 774px;
+    background: rgba(230, 218, 206, 1);
+    padding-top:52px;
+  }
+  
+  .mobile_wrap_hello > .hello_content{
+    padding-top:52px;
+  }
+  
+  .mobile_wrap_pop > .h1{
+    width: 100%;
+    color: rgba(0,0,0,1);
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 40px;
+    opacity: 1;
+    margin-bottom: 16px;
+  }
+  
+  .mobile_wrap_pop > .h2{
+    width: 100%;
+    color: rgba(0,0,0,1);
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    margin-bottom: 16px;
+  }
+  
+  .mobile_wrap_hello > .mobile_wrap_pop{
+    background: rgba(230,218,206,1);
+    padding:16px;
+    width: 100%;
+  }
+  
+  .mobile_wrap_pop > .mobile_pop_top{
+    /* 상하좌우 정중앙 정렬하기 */
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:60px;
+    background: rgba(244,236,230,1);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    
+  }
+  
+  .p_face{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  }
+  
+  .p_name{
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 36px;
+  padding-top:41px;
+  padding-bottom:41px;
+  }
+  
+  .p_job{
+  font-family: Inter;
+  font-weight: 100;
+  font-size: 20px;
+  padding-top:41px;
+  }
+  
+  hr{
+  width: 50px;
+  margin: 0 ;
+  }
+  
+  .pop_bottom{
+  width:100%;
+  height:11%;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .p_facebook, .p_instagram{
+  margin-right: 32px;
+  }
+  
+  .wrap_content{
+    width: 100%;
+    height: 606px;
+  }
+  
+  .content_top{
+    width:100%;
+    height: 80%;
+    padding-top:15px;
+    padding-left:17.5px;
+    padding-right:17.5px;
+    padding-bottom:26px;
+    font-family: Inter;
+    font-size:16px;
+    line-height: 1.5;
+  }
+  
+  .content_bottom{
+    width:100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .bottom_req{
+    width: 93px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(206,	231, 235, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .bottom_req:hover{
+   
+    color:  rgba(19, 181, 187, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .wrap_wa{
+    width:100%;
+    height:860px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 100px;
+    color: rgba(255,255,255,1);
+    bottom: 0px;
+    display: block;
+  }
+  
+  .wa_web{
+    width:100%;
+    height: 50%;
+    background : url("../images/web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(50%);
+  
+    /* 상하좌우 정중앙 정렬하기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .wa_app{
+    width:100%;
+    height: 50%;
+    background : url("../images/app.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(50%);
+  
+    /* 상하좌우 정중앙 정렬하기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .wa_web:hover, .wa_app:hover {
+    filter: brightness(100%);
+  }
+  
+  .wrap_contact{
+    width:100%;
+    height:916px;
+    bottom: 0px;
+    display: block;
+  }
+  
+  .contact_right{
+    width:100%;
+    height:100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top : 55px;
+    padding-bottom : 55px;
+    background: rgba(248,248,250, 1);
+  }
+  
+  .contact_top{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    justify-items: center;
+  }
+  .contact_h1{
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 50px;
+  }
+  
+  .contact_h3{
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-top:12px;
+  }
+  
+  .c_info{
+    width:100%;
+    padding-top:19px;
+    padding-left:8.94px;
+    padding-right:8.94px;
+    padding-bottom:1px;
+    display: block;
+  }
+  
+  .phone{
+    padding-top:29px;
+    margin-left: 0px;
+  }
+  
+  .name, .phone {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: normal;
+    width:100%;
+  }
+  
+  .name > input, .phone > input, .email > input{
+    margin-top: 8px;
+    width:100%;
+    height:50px;
+    box-sizing: border-box;
+    border : 1px solid #D3DCE6 ;
+  }
+  
+  .email{
+    width:100%;
+    padding-top:29px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:12px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  .contact{
+    width:100%;
+    padding-top: 29px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:29px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  .contact > input{
+    margin-top: 8px;
+    width:100%;
+    height:123px;
+    box-sizing: border-box;
+    border : 1px solid #D3DCE6 ;
+  }
+  
+  .contact_h4, .btn_submit{
+    width: 100%;
+    padding: 0 20%;
+    font-family: Inter;
+    font-size: 12px;
+    color : rgba(94, 94, 94, 1);
+  }
+  
+  .btn_submit{
+    width:100%;
+    height:106px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(19,181,187,1);
+    text-align: center;
+    align-content: center;
+  }
+  
+  .submit  {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: 3px solid rgba(19,181,187,1);
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  .submit:hover{
+    background: rgba(19,181,187,1);
+    color:rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  
+  .contact >  textarea{
+    margin-top: 8px;
+    width:100%;
+    height:123px;
+    box-sizing: border-box;
+    border : 1px solid #D3DCE6 ;
+    resize: none;
+  }
+  
+  .contact >  textarea::placeholder{
+  
+    text-align: center;
+    line-height: 7rem;
+  }
+  
+}
+
+
+@media screen and (max-width:834px) and (min-width:698px) {
+  .wrap_pop{
+    position: relative;
+    bottom: 700px;
+    width: 350px;
+    left:calc(45% - 280px);
+    height: 531px;
+    z-index: 9999;
+  }
+
+  .wrap_wa{
+    bottom: 531px;
+  }
+
+  .wrap_contact {
+    bottom:531px;
+  }
+
+  .p_name{
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 27px;
+    padding-top:35px;
+    padding-bottom:35px;
+  }
+  
+  .p_job{
+    font-family: Inter;
+    font-weight: 100;
+    font-size: 15px;
+    padding-top:35px;
+  }
+
+  .haza_main{
+    font-size: 70px;
+  }
+
+  .menu > li {
+    font-size: 20px;
+  }
+
+  .h1{
+    font-size: 80px;
+  }
+  
+  .h2{
+    font-size: 18px;
+  }
+
+  .content {
+    font-size: 15px;
+  }
+
+  .contact_left{
+    font-size: 50px;
+  }
+
+  .contact_h1{
+    font-size:40px;
+  }
+
+  .contact_h3{
+    font-size:13px;
+  }
+
+  .contact_h4{
+    font-size:10px;
+  }
+
+  .name, .email, .phone, .contact{
+    font-size:12px;
+  }
+
+  .name, .phone {
+    width: 100%;
+  }
+
   /** 모바일 가로, 타블렛 세로 */
 }
 
 /* 작은 pc 사이즈 & 큰 태블릿 사이즈 */
-@media(max-width:1199px) and (min-width:835px) {
+@media screen and (max-width:1200px) and (min-width:835px) {
+
 
   .wrap_pop{
     position: relative;
@@ -427,6 +910,14 @@ hr{
     left:calc(45% - 280px);
     height:531px;
     z-index: 9999;
+  }
+
+  .wrap_wa{
+    bottom:531px;
+  }
+  
+  .wrap_contact {
+    bottom:531px;
   }
 
   .p_name{
